@@ -39,3 +39,5 @@ dmidecode ==> used to read system hardware information
 kill -9 used to terminate program forcefully
 
 netstat ==> used to get information about ports
+
+netstat putan | grep port_no ==> used to check open port on linux system
