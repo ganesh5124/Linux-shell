@@ -33,3 +33,25 @@ Ex:
     echo "$?"
     echo $?  --> 0    (ZERO REPRESENTS SUCCESS) 
           --->1 2 (NON ZERO -- REPRESENTS FAILURE)
+* Tee Command: Redirects the output to a file and displays it on the screen simultaneously.
+
+### Variables
+* Variables enhance flexibility and reduce errors by enabling dynamic value assignment throughout your scripts
+### Read Inputs
+* It is used to ask user anything whenever script is running 
+```
+    read -p "message" $message
+```
+-p is prompt message for to display to user
+
+## Arthematic Operations
+### expr command
+* The expr command is a traditional way to perform arithmetic operations in shell scripts
+ex: expr 6 + 3
+* Ensure that operators and operands are strictly separated by spaces. 
+* When multiplying using expr, the star symbol (*) must be escaped with a backslash because * is interpreted as a reserved regex character.
+
+## Arrays in Shell scripting
+
+NAME=HELLOWORLD
+echo ${#NAME}
