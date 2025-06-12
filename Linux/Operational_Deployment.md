@@ -93,3 +93,7 @@
 
 
 
+
+* Nice values indicate the priority of a process in the Linux scheduler. 
+* A lower nice value (like -20) means higher priority, while a higher nice value (like 19) means lower priority. It helps control how much CPU time a process gets compared to others
+* lsof stands for "List Open Files." It shows all files that are currently opened by processes on your system. This includes regular files, directories, network sockets, and device files
